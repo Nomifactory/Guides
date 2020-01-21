@@ -13,7 +13,7 @@ As CEFs are available, powergen in Omnifactory is almost entirely RF. Power is u
 
 Useful formula to calculate the proper ratio of numismatic dynamos to Self-Aware shulker models:
 
-`<numis per shulker> = 0.006*<energy per diamond in RF>/<RF/t of a dynamo>`
+`<numis per shulker> = 0.00598*<energy per diamond in RF>/<RF/t of a dynamo>`
 
 Those two stages will last you through most of the pack, until...
 
