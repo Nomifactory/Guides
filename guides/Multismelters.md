@@ -14,6 +14,7 @@ Because of GTCE's **overclocking** logic, this leads to a **strange result**: us
 For instance, HV Tungstensteel MS takes 66 ticks to smelt and uses 33792 EU to do that. An HV HSS-G one takes 128 ticks and uses 32768 EU. At higher tiers, the disparity becomes much more pronounced.
 
 As such, one might want to upgrade the coils until tungstensteel, then wait until they can acquire Naquadah Alloy coils, which are the best speed-wise.
+
 **Multismelter coil comparison spreadsheet:**
 ![coil comparison](files/Multismelters/Coil%20Comparison.PNG)
 
