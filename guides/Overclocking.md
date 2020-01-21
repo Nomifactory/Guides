@@ -21,4 +21,4 @@ Note that it means that the amount of energy required for the recipe is doubled 
 ![answer](files/Overclocking/Arch's%20answer.JPG)
 
 **See also:**
-**Overclocking calculator** [https://discordapp.com/channels/564247906991996928/564247906991996930/664173895544340541](https://discordapp.com/channels/564247906991996928/564247906991996930/664173895544340541 "https://discordapp.com/channels/564247906991996928/564247906991996930/664173895544340541")
+[**Overclocking calculator**](OverclockingCalculator.md)
