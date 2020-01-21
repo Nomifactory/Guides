@@ -29,4 +29,4 @@ Once you can mass-produce solars of at least VII-VIII tier, it becomes possible 
  
  ![Neeve on plasma](files/PowerGen/Neeve_on_plasma.PNG) 
 
- - **Nuclearcraft** is **not** a powergen method in Omnifactory, at all. A lot of players don't even bother collecting the RF the reactors generate with how low-power they are by the time they are obtainable, voiding it instead.
+ **Nuclearcraft** is **not** a powergen method in Omnifactory, at all. A lot of players don't even bother collecting the RF the reactors generate with how low-power they are by the time they are obtainable, voiding it instead.
