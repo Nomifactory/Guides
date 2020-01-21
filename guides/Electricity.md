@@ -10,7 +10,7 @@ Note that in general, GT cables have **loss** - per every block traversed, the c
 
 A packet per tick is called an **amp** (1A). In example 1, it can be said that the machine consumes (and recieves from the CEF) 4/32=0.125A of LV current. **Too many amps transferred through a cable will cause it to burn**. However, unlike GT5U and others, GTCE massively simplifies the calculations involved - it seems like it both doesn't take into account the _current_ amperage, only _potential_, so a 16x CEF connected to a single machine through a 4x cable would burn a cable, despite sending at worst two amps to it. *Additionally*, GTCE doesn't properly sum the amperage from multiple sources, resulting in this:
 
-![ForgedSnow's amperage experiment](files\Electricity\ForgedSnow_Amp_Experiment.png) 
+![ForgedSnow's amperage experiment](files/Electricity/ForgedSnow_Amp_Experiment.png) 
 
 Picture by ForgedSnow. Here, an EV machine is powered by 1x ULV cables.
 Suffices to say, this cable should not be able to transfer that much power (**tl;dr: GTCE electricity is somewhat broken**).
