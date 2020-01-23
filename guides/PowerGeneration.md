@@ -24,7 +24,7 @@ Once you can mass-produce solars of at least VII-VIII tier, it becomes possible 
 **Magmatic** is not really worth setting up, as it becomes obsolete almost immediately - there's only a tiny period of time before you can make numismatics. 
 
 **GT power** generation methods are generally massively inferior to numis, except for two:
- - [multiblock diesel engines](Diesel%20Engines.md) fed cetane-boosted diesel - can fulfill the role of numis, but are significantly harder to setup and maintain. 
+ - [multiblock diesel engines](DieselEngines.md) fed cetane-boosted diesel - can fulfill the role of numis, but are significantly harder to setup and maintain. 
  - **plasma** turbines (fed with plasma from a Shadows of Greg fusion reactor) - a solid lategame powersource, providing several MRF/t from a reactor, although it's not as easy to scale up as solars. Here's another (Neeve's) opinion: 
  
  ![Neeve on plasma](files/PowerGen/Neeve_on_plasma.PNG) 
