@@ -17,6 +17,8 @@ Note that it means that the amount of energy required for the recipe is doubled 
 
 2. Centrifuging Naquadah dust for Naquadria and Enriched Naquadah. Base recipe is 320 EU/t(HV) and 160s(3200 ticks), 1024000 total EU. In a ZPM Centrifuge, it overclocks 4 times to 81920 EU/t, ~52.06(3200/2.8^4) ticks (rounds up to 53t) (2.65s) duration for a total EU of 53*81920=4341760 EU. This is ~60 times faster than the base recipe, for 4.24x the energy per operation. **Note**: this is a useful recipe (arguably the best way to get naquadria), and you want to use a high-tier machine for it as it increases the byproduct amount (see [the byproduct guide](Byproducts.md) for details).
 
+3. [This calculation by Neeve of the required freezer numbers per cryogenic distillation tower (link to a discord message)](https://discordapp.com/channels/564247906991996928/564247906991996930/666338576157507586)
+
 **Bonus** My questions about overclocking to Archengius, main developer of GTCE, and his answer:
 
 ![my question at the GTCE discord](files/Overclocking/question.png)
