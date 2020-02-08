@@ -46,3 +46,6 @@ Chemical Reactor (MV) + Nether Quartz + Resonant Ender -> Smelt clathrates to pu
 
 Setup #5: Polymer Clay
 Alloy Smelter + Pulsating Dust + Clay
+
+## Flowchart
+![files/flowcharts/PolymerClay_corrected.png](files/flowcharts/PolymerClay_corrected.png)
