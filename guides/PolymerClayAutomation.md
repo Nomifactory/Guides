@@ -48,4 +48,5 @@ Setup #5: Polymer Clay
 Alloy Smelter + Pulsating Dust + Clay
 
 ## Flowchart
+Author: reddit user u/jakeleebob (Discord tag?)([Original source link](https://www.reddit.com/r/feedthebeast/comments/clv7tt/omnifactory_flow_chart_for_creating_infinite/?utm_source=share&utm_medium=web2x)). Correction in red by Neeve
 ![files/flowcharts/PolymerClay_corrected.png](files/flowcharts/PolymerClay_corrected.png)
