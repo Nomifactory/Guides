@@ -1,3 +1,6 @@
+Valid for Omnifactory v. 1.2.1
+
+by joqr#7423
 # Moron's Guide to Managing Mechanical Monstrocities
 
 At every point in which people build their favorite factories, there arises always the question of 'how do I manage this?'  Applied Energistics 2 has the perfect answer for this question.
