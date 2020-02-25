@@ -22,5 +22,6 @@ One last big thing... subnetworking.  This is the design philosophy of using  di
 
 Oh, yeah, uh, there's also this thing called the I/O Port.   They're nice for if you work on cells by partitioning them like Storage Busses in a Cell Workbench, as they allow you to transfer data between cells and your network.  You can specify some more details like the direction of data transfer in the GUI.
 
-Network Tools are a thing too.  They let you view a lot of the details of your ME network.  Just right-click a Cable with one!\par
+Network Tools are a thing too.  They let you view a lot of the details of your ME network.  Just right-click a Cable with one!
+
 Have a wonderful time using Applied Energistics 2.  I know I do.
