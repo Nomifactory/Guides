@@ -4,7 +4,7 @@ So you've decided to playtest the newest features yourself. Please note that whi
 1.2.2 currently does not require a new world (it's specifically made not to), although, well, it's a dev version, so make sure to have a backup.
 
 ## Installation
-The process is nice and simple: download the zip of the repo's current state([link](https://discordapp.com/channels/564247906991996928/580064497428070450/673772359853015048), or go to [the repo](https://github.com/OmnifactoryDevs/Omnifactory) and push the big green `Clone or Download` button and choose to download the zip).
+The process is nice and simple: download the zip of the repo's current state([link](https://github.com/Exaxxion/Omnifactory/archive/1.3-PR.zip), or go to [the repo](https://github.com/OmnifactoryDevs/Omnifactory) and push the big green `Clone or Download` button and choose to download the zip).
 
 This zip can then be imported into a nice launcher like MultiMC. In MultiMC, you can do this by going Add Instance - Import from Zip and choosing the zip you downloaded.
 
