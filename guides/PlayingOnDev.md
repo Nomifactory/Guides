@@ -10,13 +10,15 @@ This zip can then be imported into a nice launcher like MultiMC. In MultiMC, you
 
 ![latest commit](files/UnofficialFixes/LatestCommit.PNG)
 
+Alternatively, simply include the current date. That's just to keep track of what changes were made since you last downloaded the dev version.
+
 These actions are enough to install the dev version, but...
 
 ## Installing Fixes
 
-...it still doesn't have those fixes that curseforge can't ship - ones that consist of custom jars. So you need to do similar things to [the 1.2.1 fixes guide](InstallingUnofficialFixes121.md), but with minor differences. Mod updates are **unneeded** - those can and are shipped in the modpack proper.
+...it still doesn't have those fixes that curseforge can't ship - ones that consist of custom jars. So you might still want to install some of the unofficial fixes available, similar to [the 1.2.1 case ](InstallingUnofficialFixes121.md), but with minor differences. Mod updates are **unneeded** - those can and are shipped in the modpack proper.
 
 Here's a full list of popular custom jars - in all cases, you replace the original jar in your `mods` folder with the new one:
 
-- Exa's [GTCE](files/UnofficialFixes/jars/gregtech-1.12.2-1.8.4.419exa2.jar) and [Shadows of Greg](files/UnofficialFixes/jars/Shadows_of_Greg-1.12.2-2.8.0_fix.jar) jars. Are backports of GTCE/SoG fixes on Omni's version of GTCE.
+- Exa's [GTCE](files/UnofficialFixes/jars/gregtech-1.12.2-1.8.4.419exa2.jar) and [Shadows of Greg](files/UnofficialFixes/jars/Shadows_of_Greg-1.12.2-2.8.0_fix.jar) jars. Are backports of GTCE/SoG fixes on Omni's version of GTCE. No, you **don't** need the rest of the Exa's fixes (scripts, etc) - they are integrated into 1.2.2, only the jars aren't.
 - Talchas's AE2 fix. See [the section on it](InstallingUnofficialFixes121.md#talchass-ae2-fix) in the 1.2.1 fixes guide. The only change is that **for 1.2.2 you need the** rv6-stable-**7** version.
