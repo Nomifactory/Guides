@@ -27,3 +27,10 @@ You need to update all three mods involved - EnderIO, Endergy (addon adding the 
 4. Add in the three new jars you've downloaded in step 1.
 
 That's it. Only known problem with the EnderIO update involves inability to obtain Dark Steel Upgrades(they are a new item in that enderio version), but that can be solved by cheating some in - they are only used as blank upgrades for EnderIO armor/tools.
+
+### Third-party fixes
+Here we are getting to the *really* unofficial stuff, made by fans of Omnifactory for fans of Omnifactory.
+#### Talchas's AE2 fix
+A relatively minor change in AE2 logic, optimizing it to not recalculate the entire network if anything changes when AE2 is in channelless mode. The PR for it to be included into AE2 proper was rejected, but there have yet to be any known problems from using it. Advantage: *massive* improvement in recalculation times for big channelless AE2 networks. This doesn't affect lag from working, only the freezes when you change something in the network's structure.
+
+[Link to the repo](https://github.com/talchas/Applied-Energistics-2/releases). Download the latest release, replace your AE2 jar with it (similar to the instructions for updating EnderIO). Bonus: if you're a server owner, you can download the release that is named the same as the normal AE2 jar, and if you replace AE2 with it on your server, you won't need to make all your players install the fix to be able to connect - it's serverside-only.
