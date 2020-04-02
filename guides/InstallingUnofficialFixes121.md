@@ -11,7 +11,7 @@ This guide covers the installation of most unofficial fixes for the 1.2.1 versio
 This guides assumes you already have 1.2.1 Omnifactory installed. [Link](https://www.curseforge.com/minecraft/modpacks/omnifactory/files/2733453).
 
 ### Exa's fixes
-Download them from [here](files/UnofficialFixes/Exa_Fixes_20191004.zip), or from a pinned message in #general on the pack's discord server. Follow the README inside the zip for instructions. 
+Download them from [here](files/UnofficialFixes/Exa_Fixes_20191004.zip) (push the "Download" button), or from a pinned message in #general on the pack's discord server. Follow the README inside the zip for instructions. 
 
 ### Mod updates
 #### EnderIO
@@ -25,4 +25,5 @@ You need to update all three mods involved - EnderIO, Endergy (addon adding the 
 2. Locate your instance's `mods` folder. The exact ways to do so depend on the launcher, but generally there should be a button to open the instance's folder.
 3. Find the existing `jar` files of EnderCore, EnderIO-endergy and EnderIO, and delete them. (alternative to deletion is changing the extension from `.jar` to `.jar.disabled`, which will prevent Forge from treating them as mods).
 4. Add in the three new jars you've downloaded in step 1.
-That's it. Only known problem involves inability to obtain Dark Steel Upgrades(they are a new item in that enderio version), but that can be solved by cheating some in - they are only used as blank upgrades for EnderIO armor/tools.
+
+That's it. Only known problem with the EnderIO update involves inability to obtain Dark Steel Upgrades(they are a new item in that enderio version), but that can be solved by cheating some in - they are only used as blank upgrades for EnderIO armor/tools.
