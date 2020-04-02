@@ -16,5 +16,5 @@ These actions are enough to install the dev version, but...
 
 Here's a full list of popular custom jars - in all cases, you replace the original jar in your `mods` folder with the new one:
 
-- Exa's [GTCE](files/UnofficialFixes/jars/gregtech-1.12.2-1.8.4.419exa2.jar) and [Shadows of Greg](Shadows_of_Greg-1.12.2-2.8.0_fix.jar) jars. Are backports of GTCE/SoG fixes on Omni's version of GTCE.
+- Exa's [GTCE](files/UnofficialFixes/jars/gregtech-1.12.2-1.8.4.419exa2.jar) and [Shadows of Greg](files/UnofficialFixes/jars/Shadows_of_Greg-1.12.2-2.8.0_fix.jar) jars. Are backports of GTCE/SoG fixes on Omni's version of GTCE.
 - Talchas's AE2 fix. See [the section on them](InstallingUnofficialFixes121.md#talchass-ae2-fix) in the 1.2.1 fixes guide. The only change is that **for 1.2.2 you need the** rv6-stable-**7** version.
