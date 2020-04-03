@@ -22,3 +22,10 @@ Here's a full list of popular custom jars - in all cases, you replace the origin
 
 - Exa's [GTCE](files/UnofficialFixes/jars/gregtech-1.12.2-1.8.4.419exa2.jar) and [Shadows of Greg](files/UnofficialFixes/jars/Shadows_of_Greg-1.12.2-2.8.0_fix.jar) jars. Are backports of GTCE/SoG fixes on Omni's version of GTCE. No, you **don't** need the rest of the Exa's fixes (scripts, etc) - they are integrated into 1.2.2, only the jars aren't.
 - Talchas's AE2 fix. See [the section on it](InstallingUnofficialFixes121.md#talchass-ae2-fix) in the 1.2.1 fixes guide. The only change is that **for 1.2.2 you need the** rv6-stable-**7** version.
+
+
+## Transferring the world over
+
+If you don't wish to start a new world with 1.2.2, you don't have to. You can just transfer your world to the new instance. To do that, navigate to your old instance's `minecraft` folder, then in the `saves` folder find a folder named after your world. Copy *that* entire folder to the `saves` folder of the new instance.
+
+You'll also likely want to copy over the entire `journeymap` folder (in `minecraft`)(your waypoints), as well as `options.txt` (all the options you've tweaked, so that you don't have to ~~set GUI scale to Large once again-~~ configure them again).
