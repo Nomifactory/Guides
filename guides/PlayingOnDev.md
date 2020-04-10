@@ -4,19 +4,19 @@ So you've decided to playtest the newest features yourself. Please note that whi
 1.2.2 currently does not require a new world (it's specifically made not to), although, well, it's a dev version, so make sure to have a backup.
 
 ## Installation
-The process is nice and simple: download the zip of the repo's current state([link](https://github.com/Exaxxion/Omnifactory/archive/1.3-PR.zip), or go to [the repo](https://github.com/OmnifactoryDevs/Omnifactory) and push the big green `Clone or Download` button and choose to download the zip).
+The process is nice and simple: start by downloading the zip of the repo's current state. For this, we have Neeve's continious integration bot: [latest-dev-preview](https://github.com/OmnifactoryDevs/Omnifactory/releases/tag/latest-dev-preview). This is a github tag that gets updated automativally every time the repository recieves a new change. It has two links you care about: client and server. **Use this server zip if you're not playing in singleplayer; don't try to patch 1.2.1 server files to be compatible with 1.2.2** (disturbingly many people have attempted to).
 
-This zip can then be imported into a nice launcher like MultiMC. In MultiMC, you can do this by going Add Instance - Import from Zip and choosing the zip you downloaded. Note: you might want to include in the instance's name a reference to the specific state of the repo. The best way to do it is to look at the last commit at the moment you're downloading the pack and include it in the instance's name:
+The client zip can then be imported into a nice launcher like MultiMC. In MultiMC, you can do this by going Add Instance - Import from Zip and choosing the zip you downloaded. Note: you might want to include in the instance's name a reference to the specific state of the repo. This is why the snapshot zips include a weird string like `66833c` - that's the closest a github repo has to a version number.
 
-![latest commit](files/UnofficialFixes/LatestCommit.PNG)
-
-Alternatively, simply include the current date. That's just to keep track of what changes were made since you last downloaded the dev version.
+The server zip, if you need it, is a full server, with Forge and start scripts included. Just unpack it somewhere and run using the script.
 
 These actions are enough to install the dev version, but...
 
 ## Installing Fixes
 
 ...it still doesn't have those fixes that curseforge can't ship - ones that consist of custom jars. So you might still want to install some of the unofficial fixes available, similar to [the 1.2.1 case ](InstallingUnofficialFixes121.md), but with minor differences. Mod updates are **unneeded** - those can and are shipped in the modpack proper.
+
+Generally, you should install the same fixes on both the server and all clients (although many of them can let you get away with only replacing the jar serverside).
 
 Here's a full list of popular custom jars - in all cases, you replace the original jar in your `mods` folder with the new one:
 
