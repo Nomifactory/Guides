@@ -1,4 +1,4 @@
-Valid for Omnifactory v. 1.2.1
+Valid for Omnifactory v. 1.2.2
 
 by joqr#7423
 # Moron's Guide to Managing Mechanical Monstrosities

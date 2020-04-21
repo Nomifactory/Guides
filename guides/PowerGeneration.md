@@ -1,4 +1,4 @@
-Valid for Omnifactory v.1.2.1
+Valid for Omnifactory v.1.2.2
 # Omnifactory power generation methods
 As CEFs are available, powergen in Omnifactory is almost entirely RF. Power is usually stored in vibrant capacitor banks (they can form multiblocks), and transferred through EnderIO conduits or AE2 power P2P tunnels to (batteryless) CEFs.
 

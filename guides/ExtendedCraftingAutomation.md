@@ -1,3 +1,4 @@
+Was written for 1.2.1. **In 1.2.2, PackagedExCrafting is added to make this easier**. This guide as such might be a bit obsolete.
 # How to automate extended crafting table recipes
 
 You'll need an Automation Interface, a table of the required size, and an Unpackager for each recipe you need to automate. For some recipes it might be possible to use a normal ME Interface instead of an Unpackager.

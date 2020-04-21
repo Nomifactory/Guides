@@ -1,4 +1,4 @@
-Valid for Omnifactory 1.2.1
+Valid for Omnifactory 1.2.2
 # Polymer Clay Automation
 Polymer clay is what Simulation Chambers from Deep Mob Learning, the first (and main) way of obtaining infinite basic resources in Omnifactory, need to work. Fully automating production of polymer clay is therefore one of the first automation challenges in the pack. It is recommended that you try and figure out everything about it yourself using JEI, as you'll need that skill throughout the whole pack, but this guide will help you if you're stuck for some reason.
 

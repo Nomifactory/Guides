@@ -1,4 +1,4 @@
-Valid for Omnifactory v.1.2.1
+Valid for Omnifactory v.1.2.2
 # How does GT(CE) electricity work
 Electricity in Gregtech travels in _packets_. Those packets are created in very specific sizes - equal to the voltage of a GT power tier. For example, an LV packet is a "32V" packet meaning that it carries 32 EU. Packets can be sent by several blocks, most notably CEFs (in Omni), battery buffers and energy output hatches. Packets are only sent when there is a destination that has room for it. 
 

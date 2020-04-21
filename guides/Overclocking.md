@@ -1,4 +1,4 @@
-Valid for Omnifactory v.1.2.1
+Valid for Omnifactory v.1.2.2
 # How overclocking GTCE Machines works
 Overclocking is a ability of GTCE machines to execute recipes faster at the cost of spending more energy.
 A recipe can be overclocked as long as the recipe's base EU/t is less than a quarter of the machine's voltage (which is 32 for LV and quadruples with every tier of the machine). Here's a tier table for reference:![tier spreadsheet](files/Overclocking/TierSheet.png)
