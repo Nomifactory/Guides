@@ -4,7 +4,7 @@
 *Setup:*
 
 To create your Autocrafting system, you first need to make an Applied Energistics ME System. Thankfully if you are reading this you should already know the basics,
-you can find the guide to the basics of the ME system [here!](guides/AE2ForDummies.md) Once you have your basic ME system up and running, 
+you can find the guide to the basics of the ME system [here!](AE2ForDummies.md) Once you have your basic ME system up and running, 
 we need to now create a small "Computer" to carry out the tasks. This is made with some Crafting Storages and Processor Units, **Crafting Storages** Are almost like RAM, 
 The bigger and complicated the recipe you ask for, the more "RAM" it will take up. **Processor Units**  are used to help speed up the task you give your system, the more the
 better! You can also make more than one of these "Computers" On a system, You might want to have more if you have dedicated complex tasks going in the background.
