@@ -12,6 +12,9 @@ better! You can also make more than one of these "Computers" On a system, You mi
 Let's say now you have *9x* 4K Storage Units, and *27x* Co-processing Units. Simply place the Storage Units in a 3x3 area, and build the processors in a 3x3x3 fashion above the Storage Units.
 The blocks should change if the structure is complete, If you want to create a bigger one down the line, you make them up to a 17x17x17 size as a max. It **must** be a cuboid.
 
+![craftingexampleone](files/AutoCrafting/CPU1.png)
+![craftingexampletwo](files/AutoCrafting/CPU2.png)
+
 With the "Computer" complete, its time to make the 3x3 Crafting table (or just called Vanilla crafting) autocraftable. To do so, you need to make **ME Interfaces** And **Mollecular Assemblers.**
 The Interface interacts with the assemblers telling them what to make, and the assemblers make the recipe. To set it up, you can create them in a simular tower shape to the starting "Computers" First,
 take 5 assemblers, and create a X pattern within a 3x3 space, then fill the blanks of the 3x3 space with the ME Interfaces, for the next layer above this is reversed!
@@ -28,9 +31,13 @@ For now, lets say you want to turn Wood > planks > sticks, first place the wood 
 Now that this is all setup, to simply make your wanted item, go into your **Crafting Terminal.** The item you set to me autocraftable will appear on your system, It will display it with "craft." Simply click it and then request how many you want, it will then calculate and say if you can make it, if everything is good just simply start it and wait! 
 *(click the hammer in the top right to see what is being made by each "Computer" you have made! If you do also want to autocraft an item that already is available, simply hit your middle mouse button to autocraft it!)*
 
+![craftingexampleone](files/AutoCrafting/Craft.png)
+
 *basic modded autocrafting:*
 
 Lets say, you want to pump **copper ingots** ingot a **compressor** to turn into a **copper plate,** to do this, you need to have the machine exposed in a way to be automated easily,
 such as having a clear space for input and output. First place a **ME interface** on a side of the machine. And have a **item conduit** set to extract and  pull the output item into the interface.
 Now go to a **pattern interface** once again, and click the crafting table to turn it into a furnace. To set the recipe, make the plate yourself and put it into the output area, and then the ingot into the input area.
 Once its into the proper interface, you can craft it! Lastly to note, Some machines will aslo come with a auto-output option, if this is the case you can set the output item from the machine to go right back into the interface so you don't need to waste any item conduits, you can also have your output go into any interface connected into the system for the recipe to be deemed as being complete.
+
+![craftingexampletwo](files/AutoCrafting/ModdedCraft.png)
