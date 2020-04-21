@@ -25,13 +25,12 @@ For now, lets say you want to turn Wood > planks > sticks, first place the wood 
 *(Note, if you have old patterns you don't use anymore, or you make an accident, just put it into the input slot, they are reusable!)* Take the Encoded Pattern out, now you need a **interface Terminal** Which will show all available interfaces. Now simply place your Pattern inside a slot, now repeat this process for sticks! 
 *(When your just doing basic/vanilla recipes, it is okay to leave them as is, but for the future, since you will need less interfaces for machines, it is wise to rename them in a anvil, to seperate their inventory by title within the terminal.)*
 
-Now that this is all setup, to simply make your wanted item, go into your **Crafting Terminal** and if you have *0* of the item you made autocraftable, you can also **Click down your middle mouse button** to autocraft something
-that already exsists in your system. It will display it with "craft." Simply click it and then request how many you want, it will then calculate and say if you can make it, if everything is good just simply start it and wait! 
-*(click the hammer in the top right to see what is being made by each "Computer" you have made!)*
+Now that this is all setup, to simply make your wanted item, go into your **Crafting Terminal.** The item you set to me autocraftable will appear on your system, It will display it with "craft." Simply click it and then request how many you want, it will then calculate and say if you can make it, if everything is good just simply start it and wait! 
+*(click the hammer in the top right to see what is being made by each "Computer" you have made! If you do also want to autocraft an item that already is available, simply hit your middle mouse button to autocraft it!)*
 
 *basic modded autocrafting:*
 
 Lets say, you want to pump **copper ingots** ingot a **compressor** to turn into a **copper plate,** to do this, you need to have the machine exposed in a way to be automated easily,
 such as having a clear space for input and output. First place a **ME interface** on a side of the machine. And have a **item conduit** set to extract and  pull the output item into the interface.
 Now go to a **pattern interface** once again, and click the crafting table to turn it into a furnace. To set the recipe, make the plate yourself and put it into the output area, and then the ingot into the input area.
-This basically works as a trust system to the interface, it places the items into the machines, and waits for the output to then be placed back into the interface. So it asks the compressor. When it gets its expected item back, the recipe is deemed complete.
+Once its into the proper interface, you can craft it! Lastly to note, Some machines will aslo come with a auto-output option, if this is the case you can set the output item from the machine to go right back into the interface so you don't need to waste any item conduits, you can also have your output go into any interface connected into the system for the recipe to be deemed as being complete.
