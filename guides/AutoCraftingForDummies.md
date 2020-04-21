@@ -4,12 +4,12 @@
 *Setup:*
 
 To create your Autocrafting system, you first need to make an Applied Energistics ME System. Thankfully if you are reading this you should already know the basics,
-you can find the guide to the basics of the ME system [here!](guides/AE2ForDummies) Once you have your basic ME system up and running, 
+you can find the guide to the basics of the ME system [here!](guides/AE2ForDummies.md) Once you have your basic ME system up and running, 
 we need to now create a small "Computer" to carry out the tasks. This is made with some Crafting Storages and Processor Units, **Crafting Storages** Are almost like RAM, 
 The bigger and complicated the recipe you ask for, the more "RAM" it will take up. **Processor Units**  are used to help speed up the task you give your system, the more the
 better! You can also make more than one of these "Computers" On a system, You might want to have more if you have dedicated complex tasks going in the background.
 
-Lets say now you have *9x* 4K Storage Units, and *27x* Co-processing Units. Simply place the Storage Units in a 3x3 area, and build the processors in a 3x3x3 fashion above the Storage Units.
+Let's say now you have *9x* 4K Storage Units, and *27x* Co-processing Units. Simply place the Storage Units in a 3x3 area, and build the processors in a 3x3x3 fashion above the Storage Units.
 The blocks should change if the structure is complete, If you want to create a bigger one down the line, you make them up to a 17x17x17 size as a max. It **must** be a cuboid.
 
 With the "Computer" complete, its time to make the 3x3 Crafting table (or just called Vanilla crafting) autocraftable. To do so, you need to make **ME Interfaces** And **Mollecular Assemblers.**
