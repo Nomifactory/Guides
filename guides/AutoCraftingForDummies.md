@@ -20,7 +20,7 @@ The Interface interacts with the assemblers telling them what to make, and the a
 take 5 assemblers, and create a X pattern within a 3x3 space, then fill the blanks of the 3x3 space with the ME Interfaces, for the next layer above this is reversed!
 So ME interfaces in a X shape and then Assemblers, this allows allot of coverage over the Assemblers.
 
-
+![craftingexampleone](files/AutoCrafting/Craft.png)
 
 Next up, is to actually start creating and then Applying **Patterns,** they are used to localize a Interface to a recipe, when attached to a assembler it automatically creates the recipe and starts to make it,
 but for modded machines, etc I will explain a bit later on! To create a pattern, use a **pattern terminal** to print your recipe into the pattern. It will look simular to a crafting terminal, 
@@ -33,7 +33,7 @@ For now, lets say you want to turn Wood > planks > sticks, first place the wood 
 Now that this is all setup, to simply make your wanted item, go into your **Crafting Terminal.** The item you set to me autocraftable will appear on your system, It will display it with "craft." Simply click it and then request how many you want, it will then calculate and say if you can make it, if everything is good just simply start it and wait! 
 *(click the hammer in the top right to see what is being made by each "Computer" you have made! If you do also want to autocraft an item that already is available, simply hit your middle mouse button to autocraft it!)*
 
-![craftingexampleone](files/AutoCrafting/Craft.png)
+
 
 *basic modded autocrafting:*
 
