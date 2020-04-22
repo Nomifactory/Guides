@@ -13,13 +13,14 @@ Let's say now you have *9x* 4K Storage Units, and *27x* Co-processing Units. Sim
 The blocks should change if the structure is complete, If you want to create a bigger one down the line, you make them up to a 17x17x17 size as a max. It **must** be a cuboid.
 
 ![craftingexampleone](files/AutoCrafting/CPU1.png)
+![craftingexampletwo](files/AutoCrafting/CPU2.png)
 
 With the "Computer" complete, its time to make the 3x3 Crafting table (or just called Vanilla crafting) autocraftable. To do so, you need to make **ME Interfaces** And **Mollecular Assemblers.**
 The Interface interacts with the assemblers telling them what to make, and the assemblers make the recipe. To set it up, you can create them in a simular tower shape to the starting "Computers" First,
 take 5 assemblers, and create a X pattern within a 3x3 space, then fill the blanks of the 3x3 space with the ME Interfaces, for the next layer above this is reversed!
 So ME interfaces in a X shape and then Assemblers, this allows allot of coverage over the Assemblers.
 
-![craftingexampletwo](files/AutoCrafting/CPU2.png)
+
 
 Next up, is to actually start creating and then Applying **Patterns,** they are used to localize a Interface to a recipe, when attached to a assembler it automatically creates the recipe and starts to make it,
 but for modded machines, etc I will explain a bit later on! To create a pattern, use a **pattern terminal** to print your recipe into the pattern. It will look simular to a crafting terminal, 
