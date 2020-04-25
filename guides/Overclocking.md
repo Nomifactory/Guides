@@ -10,7 +10,7 @@ The actual decrease is as follows:
 1) 2x per tier, _if the recipe's base EU/t is 16 or less_.
 2) 2.8x per tier otherwise. 
 
-After all the overclocking, duration is rounded up if it's not an integer.
+After all the overclocking, if it's not an integer, duration is rounded **down**(but can't go below 1 tick) in the first case and **up** in the second one.
 
 Note that it means that the amount of energy required for the recipe is doubled in the first case and multiplied by about 1.429 in the second. **Overclocking is energy-inefficient**, so you have to decide when you want to use it. Every single-block GTCE machine has a **button** that toggles whether it is allowed to overclock. Multiblocks overclock whenever they can - their tier is dependent on the energy hatches you use in their construction (the controller's GUI states the current voltage tier). There is a limit: a recipe can't be overclocked such that it's duration becomes less than one tick(1/20th of a second). Also: a recipe being <=2EU/t doesn't give another tier of overclocking, for... reasons. 
 
