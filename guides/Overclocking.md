@@ -1,5 +1,7 @@
 Valid for Omnifactory v.1.2.2
 # How overclocking GTCE Machines works
+*This guide is written based on the analysis of GTCE code, specifically the [calculateOverclock](https://github.com/GregTechCE/GregTech/blob/30a094585861b70a14cade75460fa89f1dc186af/src/main/java/gregtech/api/capability/impl/AbstractRecipeLogic.java#L239) function. Feel free to check it out yourself.*
+
 Overclocking is a ability of GTCE machines to execute recipes faster at the cost of spending more energy.
 A recipe can be overclocked as long as the recipe's base EU/t is less than a quarter of the machine's voltage (which is 32 for LV and quadruples with every tier of the machine). Here's a tier table for reference:![tier spreadsheet](files/Overclocking/TierSheet.png)
 That means an LV machine can only overclock recipes of <=8 base EU/t. An HV(512V) machine is able to overclock recipes of <=128EU/t once, of <=32EU/t _twice_ and of <=8 EU/t _thrice_. Per each tier of overclocking the recipe's duration decreases.
