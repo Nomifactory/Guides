@@ -14,7 +14,7 @@ This guides assumes you already have 1.2.2 Omnifactory installed. [Link](https:/
 Originally a zip of fixes for 1.2.1, most of it has been integrated into the pack, except for the [GTCE](files/UnofficialFixes/jars/gregtech-1.12.2-1.8.4.419exa2.jar) and [Shadows of Greg](files/UnofficialFixes/jars/Shadows_of_Greg-1.12.2-2.8.0_fix.jar) jars (push the Download button). They are backports of GTCE/SoG fixes on Omni's version of GTCE. No, you **don't** need the rest of the Exa's fixes (scripts, etc) - they are integrated into 1.2.2, only the jars aren't. To install, just replace with them the similarly-named `gregtech` and `Shadows_of_Greg` jars in the `mods` folder of your instance.
 
 #### Sources
-Links to the repos for Exa's forks, to be compliant with \*GPL licenses: [GTCE](https://github.com/Exaxxion/GregTech/), [SoG](https://github.com/Exaxxion/Shadows-of-Greg/).
+Links to the repos for Exa's forks, to be compliant with \*GPL licenses: [GTCE](https://github.com/Exaxxion/GregTech/), [SoG](https://github.com/Exaxxion/Shadows-of-Greg/). **You probably don't need these links - use the ones in the previous paragraph.**
 
 ### Third-party fixes
 This section is for the *really* unofficial stuff, made by fans of Omnifactory for fans of Omnifactory.
