@@ -16,7 +16,7 @@ Why is it important? Well, because **it shows what tier of the machine you need 
 
 ![tier table](files/Overclocking/TierSheet.png)
 
-Voltage is just quadrupled for each tier, so you'll remember this table in no time. Looking at it, though, you can see that the lowest tier with a voltage about 1000 EU/t is EV. Indeed, **this is a EV recipe** - there's no use trying to do it in a HV electrolyzer or below. This, and the massive total energy requirement, is why this recipe for pulsating dust isn't really used by anyone.
+Voltage is just quadrupled for each tier, so you'll remember this table in no time. Looking at it, though, you can see that the lowest tier with a voltage above 1000 EU/t is EV. Indeed, **this is a EV recipe** - there's no use trying to do it in a HV electrolyzer or below. This, and the massive total energy requirement, is why this recipe for pulsating dust isn't really used by anyone.
 
 ## Example 2: Almandine Electrolysis
 
