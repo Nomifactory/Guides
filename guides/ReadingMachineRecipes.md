@@ -30,6 +30,6 @@ Voltage is just quadrupled for each tier, so you'll remember this table in no ti
 
 144mb Ethylene is reacted with 1b oxygen in a Chemical Reactor to form 216mb Polyethylene. There are several things to note here:
 1) this is a Chemical Reactor recipe - note the very different slot arrangement, with many possible inputs and outputs.
-2) this recipe uses a **programmed circuit**. They are used to distinguish between recipes share a common part, to ensure you never accidentally make something that you didn't intend.
+2) this recipe uses a **programmed circuit**. They are used to distinguish between recipes that share a common part, to ensure you never accidentally make something that you didn't intend.
 3) not shown on the picture, but there are actually several different ethylene->polyethylene recipes. If you look at the inputs and outputs, you'll realise the pattern - compared to the "default" of using air as the second reactant(144mb ethylene->144 mb PE), oxygen provides 1.5x yield of polyethylene from the same ethylene amount, and adding some titanium tetrachloride gives another 1.5x, stacking additively. Having many alternative recipes like that is a pretty common situation - **always look through all JEI tabs and all the pages in them!**
 4) as for power, there's nothing special - 30EU/t (4800EU for 8 seconds) makes it an LV recipe.
