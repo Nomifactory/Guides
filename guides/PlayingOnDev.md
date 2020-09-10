@@ -15,7 +15,7 @@ These actions are enough to install the dev version, but...
 
 ## Installing Fixes
 
-...it still doesn't have those fixes that curseforge can't ship - ones that consist of custom jars. So you might still want to install some of the unofficial fixes available, just like in [the 1.2.1 case ](InstallingUnofficialFixes121.md).
+...it still doesn't have those fixes that curseforge can't ship - ones that consist of custom jars. So you might still want to install some of the unofficial fixes available, just like in [the 1.2.1 case ](InstallingUnofficialFixes.md).
 
 
 
