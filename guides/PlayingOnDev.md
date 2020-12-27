@@ -38,7 +38,7 @@ It's not an incremental number like releases so it's somewhat unintuitive, but w
 
 ### Client Installation
 
-Simply download the client zip and import it into your favorite launcher. We recommend MultiMC, but any modern modded Minecraft launcher should do. The files will be downloaded and you can play it as usual.
+Simply download the client zip and import it into your favorite launcher. We recommend [MultiMC](https://multimc.org), but any modern modded Minecraft launcher should do. The files will be downloaded and you can play it as usual.
 
 #### Transferring Save Data
 
