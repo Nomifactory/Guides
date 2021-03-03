@@ -28,7 +28,7 @@ If you want a stable gameplay experience, prefer the releases.
 
 ## Installation
 
-Since we use an automatic build system, installation is nice and simple. Just download the client and/or server zip from [latest-dev-preview](https://github.com/OmnifactoryDevs/Omnifactory/releases/tag/latest-dev-preview). This link always goes to the latest development snapshots.
+Since we use an automatic build system, installation is nice and simple. Just download the zip called `Omnifactory-dev-<commit hash>-snapshot.zip` for client install and `Omnifactory-dev-<commit hash>-snapshot-server.zip` for the server. These are located [here](https://github.com/OmnifactoryDevs/Omnifactory/releases/tag/latest-dev-preview). This link always goes to the latest development snapshots.
 
 ### Version Numbering Scheme
 
