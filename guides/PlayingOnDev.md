@@ -8,7 +8,7 @@ For the previous version of this guide targeting dev snapshots leading into 1.2.
 
 ### What Are Development Snapshots?
 
-Development snapshots are the bleeding-edge version of Omnifactory. We create a pair of client and server zip files automatically whenever we change the "dev" branch on our GitHub repository, keeping only the latest pair of files.
+Development snapshots are the bleeding-edge version of Omnifactory. We create a pair of client and server zip files automatically whenever we change the "dev" branch on our GitHub repository.
 
 The main thing to note is that these are experimental builds. They have not been vetted to the same degree as releases. While we make a concerted effort to avoid breaking things, we don't make any guarantees.
 
@@ -65,8 +65,6 @@ Configure the amount of RAM you want to allocate to the heap by editing the star
 Copy any customizations you want over into `server.properties`, and copy your save directory into the new server (by default called `world`).
 
 ### Installing Unofficial Fixes
-
-We don't include any custom versions of pack mods in these zips.
 
 As of 2020-12-05, the dev snapshots are using the latest versions of GregTechCE and Shadows of Greg. You should not use the custom jars for those mods anymore (it will break your pack).
 
