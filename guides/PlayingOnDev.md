@@ -28,7 +28,9 @@ If you want a stable gameplay experience, prefer the releases.
 
 ## Installation
 
-Since we use an automatic build system, installation is nice and simple. Just download the client and/or server zip from [latest-dev-preview](https://github.com/OmnifactoryDevs/Omnifactory/releases/tag/latest-dev-preview). This link always goes to the latest development snapshots.
+Since we use an automatic build system, installation is nice and simple. Just download the client and/or server zip from our [nightly.link page](https://nightly.link/OmnifactoryDevs/Omnifactory/workflows/nightly/dev). This link always displays latest development snapshots.
+
+In case you want to download a specific pair of the client and server zips, you can navigate to the [GitHub Actions page](https://github.com/OmnifactoryDevs/Omnifactory/actions/workflows/nightly.yml), click the desired workflow run and download artifacts yourself. Each snapshot pair is stored for no more than 90 days.
 
 ### Version Numbering Scheme
 
@@ -67,5 +69,7 @@ Copy any customizations you want over into `server.properties`, and copy your sa
 We don't include any custom versions of pack mods in these zips.
 
 As of 2020-12-05, the dev snapshots are using the latest versions of GregTechCE and Shadows of Greg. You should not use the custom jars for those mods anymore (it will break your pack).
+
+As of 2021-03-31, the dev snapshots also include [Applied Energistics 2 Trousers Edition](https://github.com/PrototypeTrousers/Applied-Energistics-2) by default, replacing Applied Energistics 2 and Just Enough Energistics. It's no longer necessary to install it as a part of the guide below.
 
 For any other mods, refer to [Installing Unofficial Fixes](InstallingUnofficialFixes.md).
