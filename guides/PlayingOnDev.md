@@ -54,6 +54,8 @@ File | Description
 `minecraft/journeymap` directory | Journeymap waypoints
 `minecraft/config/jei/bookmarks.ini` | JEI Bookmarks
 
+To automate this process, feel free to use one of the migration scripts provided by this project: [Omnifactory-Migrator](https://github.com/capSAR273/omnifactory-migrator). Note this is a community member's project and is not officially supported by the Omnifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/capSAR273/omnifactory-migrator/issues).
+
 ### Server Installation
 
 If you want to run a dedicated server, then download the server zip and extract it into its own folder. You need a 64-bit Java Runtime Environment (JRE) installed to run the server, and it can be started using the file launch.bat (on Windows) or launch.sh (on Linux or other Unix-like systems).
