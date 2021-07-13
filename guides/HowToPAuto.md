@@ -55,7 +55,7 @@ You can even try to order them! If you will be fast enough, you can see how pack
 
 ![Unpackager missing package](files/HowToPAuto/Screenshot_4.png?raw=true)
 
-*Unpackager can unpackage items only when it has full set of packages. You inserted only one of them; it's indicated by green dot. It's missing another one; it's indicated by red dot. Take another package (packages have indexes on them, 0 is first one, 2 is second,...) and insert it into unpackager. If there won't be inventory near it, unpackager will have 2 green dots.*
+*Unpackager can unpackage items only when it has full set of packages. You inserted only one of them; it's indicated by green dot. It's missing another one; it's indicated by red dot. Take another package (packages have indexes on them, 0 is first one, 1 is second,...) and insert it into unpackager. If there won't be inventory near it, unpackager will have 2 green dots.*
 
 ![Unpackager with two packages](files/HowToPAuto/Screenshot_5.png?raw=true)
 
