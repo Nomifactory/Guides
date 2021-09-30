@@ -51,7 +51,7 @@ File | Description
 `minecraft/save` directory | Single Player worlds
 `minecraft/resourcepacks` directory | Resource Packs
 `minecraft/options.txt` | Minecraft settings like keybinds, selected resource packs, video options, etc.
-`minecraft/journeymap` directory | Journeymap waypoints
+`minecraft/journeymap` directory | Journeymap waypoints and map data
 `minecraft/config/jei/bookmarks.ini` | JEI Bookmarks
 
 To automate this process, feel free to use one of the migration scripts provided by this project: [Omnifactory-Migrator](https://github.com/capSAR273/omnifactory-migrator). Note this is a community member's project and is not officially supported by the Omnifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/capSAR273/omnifactory-migrator/issues).
