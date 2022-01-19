@@ -1,10 +1,10 @@
 Made by UhahaUhaha#7789
 
-Valid for Omnifactory 1.2.2
+Valid for Nomifactory 1.2.2
 
 # What is PAuto, why is it in pack and how do I use it
 
-Omnifactory involves a lot of automation tasks that can't be done with pure AE2. If you have troubles with Extended Crafting tables automation, don't know how to encode recipes with 10 or more ingredients or can't parallelize your alloy smelters (or any other machine that needs 2 different inputs), this guide is for you!
+Nomifactory involves a lot of automation tasks that can't be done with pure AE2. If you have troubles with Extended Crafting tables automation, don't know how to encode recipes with 10 or more ingredients or can't parallelize your alloy smelters (or any other machine that needs 2 different inputs), this guide is for you!
 ### Recipes with 10 (or more) different items
 That's recipe of LuV field generator:
 

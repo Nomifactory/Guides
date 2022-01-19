@@ -1,4 +1,4 @@
-Valid for Omnifactory v. 1.2.2
+Valid for Nomifactory v. 1.2.2
 
 by irdkwmnsb#9354
 

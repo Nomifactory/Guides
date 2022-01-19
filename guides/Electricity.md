@@ -1,12 +1,12 @@
-Valid for Omnifactory v.1.2.2
+Valid for Nomifactory v.1.2.2
 # How does GT(CE) electricity work
-Electricity in Gregtech travels in _packets_. Those packets are created in very specific sizes - equal to the voltage of a GT power tier. For example, an LV packet is a "32V" packet meaning that it carries 32 EU. Packets can be sent by several blocks, most notably CEFs (in Omni), battery buffers and energy output hatches. Packets are only sent when there is a destination that has room for it. 
+Electricity in Gregtech travels in _packets_. Those packets are created in very specific sizes - equal to the voltage of a GT power tier. For example, an LV packet is a "32V" packet meaning that it carries 32 EU. Packets can be sent by several blocks, most notably CEFs (in Nomi), battery buffers and energy output hatches. Packets are only sent when there is a destination that has room for it. 
 
 **Example 1**: a machine starts working from a full buffer of 1000EU and consuming 4 EU/t from it's internal buffer. It accepts LV current from an LV CEF (through a lossless cable or with the CEF pointed directly into the machine). In this case, the machine will work for 8 ticks before requesting and recieving a single packet from the CEF. It will then continue to send it a packet every 8 ticks. 
 
-Note that in general, GT cables have **loss** - per every block traversed, the contents of a packet decrease. For example, if you transfer MV current with an 8-block-long cable with a loss of 2/block, every packet will reach the destination retaining 128-8*2=112 EU. That means that only 112/128=87.5% of energy will be transferred. However, Omnifactory has easily available lossless cables of every tier, so you don't need to worry about it. 
+Note that in general, GT cables have **loss** - per every block traversed, the contents of a packet decrease. For example, if you transfer MV current with an 8-block-long cable with a loss of 2/block, every packet will reach the destination retaining 128-8*2=112 EU. That means that only 112/128=87.5% of energy will be transferred. However, Nomifactory has easily available lossless cables of every tier, so you don't need to worry about it. 
 
-**Trying to feed a machine a higher voltage tier than its own will destroy it**. Thankfully, Omni has very forgiving configs and the machine will just evaporate instead of exploding like a bomb. Similarly, **a cable will burn up if fed higher-tier voltage.**
+**Trying to feed a machine a higher voltage tier than its own will destroy it**. Thankfully, Nomi has very forgiving configs and the machine will just evaporate instead of exploding like a bomb. Similarly, **a cable will burn up if fed higher-tier voltage.**
 
 A packet per tick is called an **amp** (1A). In example 1, it can be said that the machine consumes (and recieves from the CEF) 4/32=0.125A of LV current. **Too many amps transferred through a cable will cause it to burn**. However, unlike GT5U and others, GTCE massively simplifies the calculations involved - it seems like it both doesn't take into account the _current_ amperage, only _potential_, so a 16x CEF connected to a single machine through a 4x cable would burn a cable, despite sending at worst two amps to it. *Additionally*, GTCE doesn't properly sum the amperage from multiple sources, resulting in this:
 
@@ -22,7 +22,7 @@ Picture by Neeve. Here, 64 LV steam turbines are feeding into 1A power wire to s
 
 Some machines may accept use more than an amp. In GTCE, essentially the only such block is the **energy input hatch** - it can consume 2A, which is how you can smelt aluminium with LV current - by putting 2 LV hatches in the EBF and supplying both with 2A of LV, you reach 128 EU/t, which is enough for aluminium.
 
-You might notice that a lot of those rules are quite complicated, _especially_ because they aren't even implemented correctly and bug-free in Omni's GTCE version. So, here's a 
+You might notice that a lot of those rules are quite complicated, _especially_ because they aren't even implemented correctly and bug-free in Nomi's GTCE version. So, here's a 
 
 **TL;DR**: **The Rules of Power**: 
 1. Put the right cable on the output of a CEF: the same (or higher) voltage tier and the same (or higher) amperage than how many batteries fit into it. You can get away with less amps in _some_ cases, but it's best not to count on it. If you mess up here, **your cable will evaporate**. 

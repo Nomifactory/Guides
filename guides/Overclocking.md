@@ -1,4 +1,4 @@
-Valid for Omnifactory v.1.2.2
+Valid for Nomifactory v.1.2.2
 # How overclocking GTCE Machines works
 *This guide is written based on the analysis of GTCE code, specifically the [calculateOverclock](https://github.com/GregTechCE/GregTech/blob/30a094585861b70a14cade75460fa89f1dc186af/src/main/java/gregtech/api/capability/impl/AbstractRecipeLogic.java#L239) function. Feel free to check it out yourself.*
 

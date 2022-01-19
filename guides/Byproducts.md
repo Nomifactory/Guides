@@ -1,4 +1,4 @@
-Valid for Omnifactory v.1.2.2
+Valid for Nomifactory v.1.2.2
 
 # How GTCE byproducts work
 When a recipe has a % chance of one of the outputs when you mouse over it, it means it's a chanced byproduct. The actual chance of it depends on the tier of the machine you are doing this recipe in. The byproduct chance is always capped at 100%. Byproduct multiplying is unrelated to overclocking - all this still applies with overclocking disabled.
