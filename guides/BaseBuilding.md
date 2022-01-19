@@ -4,7 +4,7 @@
 
 **Start of your Journey:**
 
-On the start of your journey through OMNIFACTORY(**tm**) having a base preped and planned to 
+On the start of your journey through NOMIFACTORY(**tm**) having a base preped and planned to 
 form your factory is a good idea, but during the start this can be dificult, so from your
 very first moment within the game its best to search for a abandoned building to shelter in. Something like the underneath picture is 
 a decent start, there are bigger options to find, but they are most likely damaged in a annoying way, so finding
@@ -29,7 +29,7 @@ The destruction gadget allows you to destroy blocks easily, be careful when usin
 permenatly delete blocks, so be careful not to use this around your important blocks. Something you
 can do with this tool is create an underground base, using the destruction gadget can let you delete
 a big chunk of underground space without the pain of mining. Then optionally some decoration of the walls, ceeling
-and floor. This offers a big space for you to do most of your work across Omnifactory, but what about... Advanced
+and floor. This offers a big space for you to do most of your work across Nomifactory, but what about... Advanced
 building?
 
 **Flight/Jetpacks + Effortless building:**

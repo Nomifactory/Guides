@@ -1,6 +1,6 @@
-Valid for Omnifactory 1.2.2
+Valid for Nomifactory 1.2.2
 # Polymer Clay Automation
-Polymer clay is what Simulation Chambers from Deep Mob Learning, the first (and main) way of obtaining infinite basic resources in Omnifactory, need to work. Fully automating production of polymer clay is therefore one of the first automation challenges in the pack. It is recommended that you try and figure out everything about it yourself using JEI, as you'll need that skill throughout the whole pack, but this guide will help you if you're stuck for some reason.
+Polymer clay is what Simulation Chambers from Deep Mob Learning, the first (and main) way of obtaining infinite basic resources in Nomifactory, need to work. Fully automating production of polymer clay is therefore one of the first automation challenges in the pack. It is recommended that you try and figure out everything about it yourself using JEI, as you'll need that skill throughout the whole pack, but this guide will help you if you're stuck for some reason.
 
 There are currently two possible routes for pulsating dust: the resonant clathrate one, and the enderpearl electrolysis one. The latter needs EV voltage (if it's not clear to you that it's the case from looking at the recipe, read the voltage tier table until you understand) and is generally far slower and power-hungrier, so it isn't really viable at *any* point in the progression. This guide will therefore only consider the former. 
 

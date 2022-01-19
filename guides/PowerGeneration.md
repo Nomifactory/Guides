@@ -1,12 +1,12 @@
-Valid for Omnifactory v.1.2.2
-# Omnifactory power generation methods
-As CEFs are available, powergen in Omnifactory is almost entirely RF. Power is usually stored in vibrant capacitor banks (they can form multiblocks), and transferred through EnderIO conduits or AE2 power P2P tunnels to (batteryless) CEFs.
+Valid for Nomifactory v.1.2.2
+# Nomifactory power generation methods
+As CEFs are available, powergen in Nomifactory is almost entirely RF. Power is usually stored in vibrant capacitor banks (they can form multiblocks), and transferred through EnderIO conduits or AE2 power P2P tunnels to (batteryless) CEFs.
 
 **1. Earlygame: steam dynamos**. Two things to know here: 
  1. You can easily grow sugarcane using **snad**(see design below), and use the sugarcane(yes, raw) as fuel for dynamos. See [**Neeve's guide on this**](NeeveSnadGuide.md).
  2. You can use boiler and turbine augments to specialize your dynamos. The ratio is 1 boiler to 2 turbines. This significantly increases both power generation and energy efficiency. Using those two tricks, it will take you as little as 3 dynamos to reach the next (and main) step...
 
-**2. Early MV and until lategame: Numismatic dynamos**. These are without contest the best powergen method in Omnifactory, from whenever you can obtain them (early MV) and until lategame. 
+**2. Early MV and until lategame: Numismatic dynamos**. These are without contest the best powergen method in Nomifactory, from whenever you can obtain them (early MV) and until lategame. 
 1) Use lapidary conversion augment to feed them diamonds. 
 2) Get diamonds from shulker models - yes, that means that the most important thing to do in early MV is completely automating DML. 
 3) Fill all other slots with efficiency augments(Fuel Catalyzers).
@@ -29,4 +29,4 @@ Once you can mass-produce solars of at least VII-VIII tier, it becomes possible 
  
  ![Neeve on plasma](files/PowerGen/Neeve_on_plasma.PNG) 
 
- **Nuclearcraft** is **not** a powergen method in Omnifactory, at all. A lot of players don't even bother collecting the RF the reactors generate with how low-power they are by the time they are obtainable, voiding it instead.
+ **Nuclearcraft** is **not** a powergen method in Nomifactory, at all. A lot of players don't even bother collecting the RF the reactors generate with how low-power they are by the time they are obtainable, voiding it instead.

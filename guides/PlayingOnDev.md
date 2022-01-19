@@ -2,13 +2,13 @@
 
 This guide will teach you how to play on development snapshots following the release of 1.2.2.
 
-For the previous version of this guide targeting dev snapshots leading into 1.2.2, use the [1.2.2 revision](https://github.com/OmnifactoryDevs/OmnifactoryGuides/blob/1.2.2/guides/InstallingUnofficialFixes.md).
+For the previous version of this guide targeting dev snapshots leading into 1.2.2, use the [1.2.2 revision](https://github.com/Nomifactory/NomifactoryGuides/blob/1.2.2/guides/InstallingUnofficialFixes.md).
 
 ## Preliminary Information
 
 ### What Are Development Snapshots?
 
-Development snapshots are the bleeding-edge version of Omnifactory. We create a pair of client and server zip files automatically whenever we change the "dev" branch on our GitHub repository.
+Development snapshots are the bleeding-edge version of Nomifactory. We create a pair of client and server zip files automatically whenever we change the "dev" branch on our GitHub repository.
 
 The main thing to note is that these are experimental builds. They have not been vetted to the same degree as releases. While we make a concerted effort to avoid breaking things, we don't make any guarantees.
 
@@ -28,9 +28,9 @@ If you want a stable gameplay experience, prefer the releases.
 
 ## Installation
 
-Since we use an automatic build system, installation is nice and simple. Just download the client and/or server zip from our [nightly.link page](https://nightly.link/OmnifactoryDevs/Omnifactory/workflows/nightly/dev). This link always displays latest development snapshots.
+Since we use an automatic build system, installation is nice and simple. Just download the client and/or server zip from our [nightly.link page](https://nightly.link/Nomifactory/Nomifactory/workflows/nightly/dev). This link always displays latest development snapshots.
 
-In case you want to download a specific pair of the client and server zips, you can navigate to the [GitHub Actions page](https://github.com/OmnifactoryDevs/Omnifactory/actions/workflows/nightly.yml), click the desired workflow run and download artifacts yourself. Each snapshot pair is stored for no more than 90 days.
+In case you want to download a specific pair of the client and server zips, you can navigate to the [GitHub Actions page](https://github.com/Nomifactory/Nomifactory/actions/workflows/nightly.yml), click the desired workflow run and download artifacts yourself. Each snapshot pair is stored for no more than 90 days.
 
 ### Version Numbering Scheme
 
@@ -54,7 +54,7 @@ File | Description
 `minecraft/journeymap` directory | Journeymap waypoints and map data
 `minecraft/config/jei/bookmarks.ini` | JEI Bookmarks
 
-To automate this process, feel free to use one of the migration scripts provided by this project: [Omnifactory-Migrator](https://github.com/capSAR273/omnifactory-migrator). Note this is a community member's project and is not officially supported by the Omnifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/capSAR273/omnifactory-migrator/issues).
+To automate this process, feel free to use one of the migration scripts provided by this project: [Omnifactory-Migrator](https://github.com/capSAR273/omnifactory-migrator). Note this is a community member's project and is not officially supported by the Nomifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/capSAR273/omnifactory-migrator/issues).
 
 ### Server Installation
 
