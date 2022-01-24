@@ -48,7 +48,7 @@ To keep important data from your prior client instance, copy the following files
 
 File | Description
 -----|------------
-`minecraft/save` directory | Single Player worlds
+`minecraft/saves` directory | Single Player worlds
 `minecraft/resourcepacks` directory | Resource Packs
 `minecraft/options.txt` | Minecraft settings like keybinds, selected resource packs, video options, etc.
 `minecraft/journeymap` directory | Journeymap waypoints and map data
@@ -73,3 +73,7 @@ As of 2020-12-05, the dev snapshots are using the latest versions of GregTechCE 
 As of 2021-03-31, the dev snapshots also include [Applied Energistics 2 Trousers Edition](https://github.com/PrototypeTrousers/Applied-Energistics-2) by default, replacing Applied Energistics 2 and Just Enough Energistics. It's no longer necessary to install it as a part of the guide below.
 
 For any other mods, refer to [Installing Unofficial Fixes](InstallingUnofficialFixes.md).
+
+### Update the Quest Book
+
+After the game is loaded, use either the quest book update notification on the quest book's main screen (client only), or alternately the command `/bq_admin default load` (on client or server) to ensure your quest book is up to date.
