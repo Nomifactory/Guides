@@ -2,7 +2,7 @@
 
 This guide will teach you how to play on development snapshots following the release of 1.2.2.
 
-For the previous version of this guide targeting dev snapshots leading into 1.2.2, use the [1.2.2 revision](https://github.com/Nomifactory/NomifactoryGuides/blob/1.2.2/guides/InstallingUnofficialFixes.md).
+For the previous version of this guide targeting dev snapshots leading into 1.2.2, use the [1.2.2 revision](https://github.com/Nomifactory/Guides/blob/1.2.2/guides/InstallingUnofficialFixes.md).
 
 ## Preliminary Information
 
