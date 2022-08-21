@@ -40,7 +40,11 @@ It's not an incremental number like releases so it's somewhat unintuitive, but w
 
 ### Client Installation
 
-Simply download the client zip and import it into your favorite launcher. We recommend [MultiMC](https://multimc.org), but any modern modded Minecraft launcher should do. The files will be downloaded and you can play it as usual.
+Simply download the client zip and import it into any modded Minecraft launcher with support for the CurseForge pack zip format. The files will be downloaded and you can play it as usual.
+
+Note that in May 2022, CurseForge switched to a new API that prevents third-party launchers (all but FTB and Curse) from downloading mods through the API unless that mod's author opted-in to allowing said downloads. Some launchers have implemented workarounds, while others remain incapable of installing packs unless every single mod permits third-party downloads:
+
+![launchers](https://cdn.discordapp.com/attachments/927073124086849577/1002369194068811796/Nomifactory_Infographics_-_Launcher_Import_Zip4.jpg) (chart last updated July 28, 2022).
 
 #### Transferring Save Data
 
