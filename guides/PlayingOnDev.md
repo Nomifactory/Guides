@@ -28,6 +28,8 @@ If you want a stable gameplay experience, prefer the releases.
 
 ## Installation
 
+As of December 13, 2022, development snapshots are published as beta releases on CurseForge with "1.3-RC" and a date as their version number. This is now the preferred way to get development builds unless you have a specific need to use snapshots.
+
 Since we use an automatic build system, installation is nice and simple. Just download the client and/or server zip from our [nightly.link page](https://nightly.link/Nomifactory/Nomifactory/workflows/nightly/dev). This link always displays latest development snapshots.
 
 In case you want to download a specific pair of the client and server zips, you can navigate to the [GitHub Actions page](https://github.com/Nomifactory/Nomifactory/actions/workflows/nightly.yml), click the desired workflow run and download artifacts yourself. Each snapshot pair is stored for no more than 90 days.
