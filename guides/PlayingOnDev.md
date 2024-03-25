@@ -51,6 +51,7 @@ Note that in May 2022, CurseForge switched to a new API that prevents third-part
 #### Transferring Save Data
 
 To keep important data from your prior client instance, copy the following files and folders:
+
 most of this can be used for CEu, except use the HEI bookmarks path and not the JEI one
 
 File | Description
