@@ -51,6 +51,7 @@ Note that in May 2022, CurseForge switched to a new API that prevents third-part
 #### Transferring Save Data
 
 To keep important data from your prior client instance, copy the following files and folders:
+most of this can be used for CEu, except use the HEI bookmarks path and not the JEI one
 
 File | Description
 -----|------------
@@ -59,6 +60,7 @@ File | Description
 `minecraft/options.txt` | Minecraft settings like keybinds, selected resource packs, video options, etc.
 `minecraft/journeymap` directory | Journeymap waypoints and map data
 `minecraft/config/jei/bookmarks.ini` | JEI Bookmarks
+`minecraft/hei_bookmarks.ini` | HEI bookmarkes (only applies to Nomifactory CEu)
 
 To automate this process, feel free to use one of the migration scripts provided by this project: [NomiUpdater](https://github.com/Nomi-CEu/NomiUpdater). Note this is a community member's project and is not officially supported by the Nomifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/Nomi-CEu/NomiUpdater/issues).
 
