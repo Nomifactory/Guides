@@ -46,7 +46,7 @@ Simply download the client zip and import it into any modded Minecraft launcher 
 
 Note that in May 2022, CurseForge switched to a new API that prevents third-party launchers (all but FTB and Curse) from downloading mods through the API unless that mod's author opted-in to allowing said downloads. Some launchers have implemented workarounds, while others remain incapable of installing packs unless every single mod permits third-party downloads:
 
-![launchers](https://github.com/rogerwim/Guides/assets/33426007/49217e32-5845-41f0-947a-773032cee60e)
+![launchers](files/Nomifactory_Infographics_-_Launcher_Import_Zip5.jpg)
 
 
 #### Transferring Save Data
