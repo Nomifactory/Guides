@@ -46,11 +46,14 @@ Simply download the client zip and import it into any modded Minecraft launcher 
 
 Note that in May 2022, CurseForge switched to a new API that prevents third-party launchers (all but FTB and Curse) from downloading mods through the API unless that mod's author opted-in to allowing said downloads. Some launchers have implemented workarounds, while others remain incapable of installing packs unless every single mod permits third-party downloads:
 
-![launchers](https://cdn.discordapp.com/attachments/927073124086849577/1037904047614726205/Nomifactory_Infographics_-_Launcher_Import_Zip5.jpg)
+![launchers](files/Nomifactory_Infographics_-_Launcher_Import_Zip5.jpg)
+
 
 #### Transferring Save Data
 
 To keep important data from your prior client instance, copy the following files and folders:
+
+Mmost of this can be used for CEu, except use the HEI bookmarks path and not the JEI one.
 
 File | Description
 -----|------------
@@ -59,8 +62,9 @@ File | Description
 `minecraft/options.txt` | Minecraft settings like keybinds, selected resource packs, video options, etc.
 `minecraft/journeymap` directory | Journeymap waypoints and map data
 `minecraft/config/jei/bookmarks.ini` | JEI Bookmarks
+`minecraft/hei_bookmarks.ini` | HEI Bookmarks (only applies to Nomifactory CEu)
 
-To automate this process, feel free to use one of the migration scripts provided by this project: [Omnifactory-Migrator](https://github.com/capSAR273/omnifactory-migrator). Note this is a community member's project and is not officially supported by the Nomifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/capSAR273/omnifactory-migrator/issues).
+To automate this process, feel free to use one of the migration scripts provided by this project: [NomiUpdater](https://github.com/Nomi-CEu/NomiUpdater). Note this is a community member's project and is not officially supported by the Nomifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/Nomi-CEu/NomiUpdater/issues).
 
 ### Server Installation
 
