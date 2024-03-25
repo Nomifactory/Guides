@@ -60,7 +60,7 @@ File | Description
 `minecraft/journeymap` directory | Journeymap waypoints and map data
 `minecraft/config/jei/bookmarks.ini` | JEI Bookmarks
 
-To automate this process, feel free to use one of the migration scripts provided by this project: [Omnifactory-Migrator](https://github.com/capSAR273/omnifactory-migrator). Note this is a community member's project and is not officially supported by the Nomifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/capSAR273/omnifactory-migrator/issues).
+To automate this process, feel free to use one of the migration scripts provided by this project: [NomiUpdater](https://github.com/Nomi-CEu/NomiUpdater). Note this is a community member's project and is not officially supported by the Nomifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/Nomi-CEu/NomiUpdater/issues).
 
 ### Server Installation
 
