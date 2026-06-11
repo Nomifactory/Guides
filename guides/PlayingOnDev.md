@@ -28,7 +28,7 @@ If you want a stable gameplay experience, prefer the releases.
 
 ## Installation
 
-As of December 13, 2022, development snapshots are published as beta releases on CurseForge with "1.3-RC" and a date as their version number. This is now the preferred way to get development builds unless you have a specific need to use snapshots.
+As of December 13, 2022, development snapshots are occasionally published as beta releases on CurseForge with "1.3-RC" and a date as their version number. Snapshots from GitHub are often much more current than these versions. If the latest 1.3-RC on CurseForge is more than 90 days old, there will definitely be a newer snapshot than it on GitHub.
 
 Since we use an automatic build system, installation is nice and simple. Just download the client and/or server zip from our [nightly.link page](https://nightly.link/Nomifactory/Nomifactory/workflows/nightly/dev). This link always displays latest development snapshots.
 
@@ -53,16 +53,14 @@ Note that in May 2022, CurseForge switched to a new API that prevents third-part
 
 To keep important data from your prior client instance, copy the following files and folders:
 
-Mmost of this can be used for CEu, except use the HEI bookmarks path and not the JEI one.
-
 File | Description
 -----|------------
 `minecraft/saves` directory | Single Player worlds
 `minecraft/resourcepacks` directory | Resource Packs
 `minecraft/options.txt` | Minecraft settings like keybinds, selected resource packs, video options, etc.
 `minecraft/journeymap` directory | Journeymap waypoints and map data
-`minecraft/config/jei/bookmarks.ini` | JEI Bookmarks
-`minecraft/hei_bookmarks.ini` | HEI Bookmarks (only applies to Nomifactory CEu)
+`minecraft/config/jei/bookmarks.ini` | JEI Bookmarks (when updating from snapshots or releases published before June 12, 2025)
+`minecraft/hei_bookmarks.ini` | HEI Bookmarks (when updating from snapshots published after June 12, 2025)
 
 To automate this process, feel free to use one of the migration scripts provided by this project: [NomiUpdater](https://github.com/Nomi-CEu/NomiUpdater). Note this is a community member's project and is not officially supported by the Nomifactory team. If you find issues please report them on the migrator project [issues page](https://github.com/Nomi-CEu/NomiUpdater/issues).
 
@@ -83,6 +81,15 @@ As of 2020-12-05, the dev snapshots are using the latest versions of GregTechCE 
 As of 2021-03-31, the dev snapshots also include [Applied Energistics 2 Trousers Edition](https://github.com/PrototypeTrousers/Applied-Energistics-2) by default, replacing Applied Energistics 2 and Just Enough Energistics. It's no longer necessary to install it as a part of the guide below.
 
 For any other mods, refer to [Installing Unofficial Fixes](InstallingUnofficialFixes.md).
+
+### Cleanroom Relauncher
+**There is a known issue with snapshot `bf6c6e8` (June 4, 2026) where you need to use Cleanroom Relauncher as a workaround for a crash on startup.**
+
+As of June 4, 2026, Cleanroom Relauncher is included as an optional mod in the client snapshot zips, so it is downloaded by your launcher but disabled by default. Your launcher should have a means of re-enabling it. This mod will make the pack load using [Cleanroom Mod Loader](https://cleanroommc.com/) instead of Forge, which provides various benefits in terms of performance and memory management.
+
+It does however require Java 25, instead of Java 8 like Forge uses. You can get that from e.g. [Adoptium](https://adoptium.net/temurin/releases?version=25), or from your favorite Java vendor, or your Linux distribution's package manager. From Adoptium's downloads page, select the JRE option for your operating system and download either the installer (to install it as your system-wide Java) or the zip to unzip it into a fresh folder and use it as a portable install.
+
+On first launch, you will be presented with a blue window to configure Cleanroom Relauncher. You need to select `Advanced Options`, then select Cleanroom version `0.5.12-alpha`, then under the Java section select `Manual Installation` and tell it where you have Java 25 installed. Then you can hit `Relaunch` and it will save your settings and launch the game. Subsequent launches will use your saved settings automatically, so you won't see this window again.
 
 ### Update the Quest Book
 
