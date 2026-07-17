@@ -83,13 +83,14 @@ As of 2021-03-31, the dev snapshots also include [Applied Energistics 2 Trousers
 For any other mods, refer to [Installing Unofficial Fixes](InstallingUnofficialFixes.md).
 
 ### Cleanroom Relauncher
-**There is a known issue with snapshot `bf6c6e8` (June 4, 2026) where you need to use Cleanroom Relauncher as a workaround for a crash on startup.**
-
 As of June 4, 2026, Cleanroom Relauncher is included as an optional mod in the client snapshot zips, so it is downloaded by your launcher but disabled by default. Your launcher should have a means of re-enabling it. This mod will make the pack load using [Cleanroom Mod Loader](https://cleanroommc.com/) instead of Forge, which provides various benefits in terms of performance and memory management.
 
 It does however require Java 25, instead of Java 8 like Forge uses. You can get that from e.g. [Adoptium](https://adoptium.net/temurin/releases?version=25), or from your favorite Java vendor, or your Linux distribution's package manager. From Adoptium's downloads page, select the JRE option for your operating system and download either the installer (to install it as your system-wide Java) or the zip to unzip it into a fresh folder and use it as a portable install.
 
-On first launch, you will be presented with a blue window to configure Cleanroom Relauncher. You need to select `Advanced Options`, then select Cleanroom version `0.5.12-alpha`, then under the Java section select `Manual Installation` and tell it where you have Java 25 installed. Then you can hit `Relaunch` and it will save your settings and launch the game. Subsequent launches will use your saved settings automatically, so you won't see this window again.
+On first launch, you will be presented with a blue window to configure Cleanroom Relauncher. You need to select `Advanced Options`, then select Cleanroom version `0.5.17-alpha`, then under the Java section select `Manual Installation` and tell it where you have Java 25 installed. Then you can hit `Relaunch` and it will save your settings and launch the game. Subsequent launches will use your saved settings automatically, so you won't see this window again unless you delete `minecraft/config/relauncher.json` to clear your settings.
+
+### InventoryBogoSorter
+InventoryBogoSorter has been added as an optional dependency on an experimental basis, along with its required dependencies Key Binding Fix and ModularUI. If you use it, you need to ensure those two mods are enabled, and you will also want to disable InventoryTweaks (they're not strictly incompatible, but greatly overlap and you will get a warning on load if you have both enabled).
 
 ### Update the Quest Book
 
