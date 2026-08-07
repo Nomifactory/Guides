@@ -1,7 +1,7 @@
 Valid for Nomifactory v. 1.2.2
 
 by joqr#7423
-# Moron's Guide to Managing Mechanical Monstrosities
+# Moron's Manual to Managing Mechanical Monstrosities
 
 At every point in which people build their favorite factories, there arises always the question of 'how do I manage this?'  Applied Energistics 2 has the perfect answer for this question.
 
